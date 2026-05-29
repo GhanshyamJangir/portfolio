@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghanshyam Jangir | Freelance Web App Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <nav class="navbar">
+    <div class="logo">Ghanshyam<span>Dev</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#booking">Project 1</a></li>
+      <li><a href="#sitevisit">Project 2</a></li>
+      <li><a href="#proposal">Project 3</a></li>
+      <li><a href="#privacy">Privacy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </nav>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="tagline">Freelance Web App Developer</p>
+      <h1>Business Web Apps Built With <span>HTML, CSS, JavaScript, Google Apps Script & Google Sheets</span></h1>
+      <p class="hero-text">I build practical business systems such as booking workflows, solar site visit tools, proposal systems, admin dashboards, customer trackers and Google Sheet based automation tools.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="https://linkedin.com/in/ghanshyam-jangir-753695177" target="_blank" class="btn secondary-btn">LinkedIn Profile</a>
+      </div>
+      <div class="stats">
+        <div><h3>03</h3><p>Projects Added</p></div>
+        <div><h3>Apps</h3><p>Script Backend</p></div>
+        <div><h3>Sheets</h3><p>Data Workflow</p></div>
+      </div>
+    </div>
+    <div class="hero-card"><div class="code-card"><div class="card-dots"><span></span><span></span><span></span></div><pre>const developer = {
+  name: "Ghanshyam Jangir",
+  email: "Ghanshyamjangir334@gmail.com",
+  role: "Freelance Web App Developer",
+  skills: ["HTML", "CSS", "JavaScript", "Apps Script", "Google Sheets"],
+  projectsAdded: 3
+};</pre></div></div>
+  </section>
+
+  <section class="section about">
+    <div class="section-title"><p>About Portfolio</p><h2>Demo Projects for Freelance Work Showcase</h2></div>
+    <p class="about-text">These projects show how I create business web systems where forms submit data, pages fetch records, dashboards manage workflow and Google Sheets can work as a lightweight backend through Google Apps Script.</p>
+    <div class="notice">Demo notice: Public demos are for portfolio review only. Real customer, company, payment, location, Google Sheet or private business data should not be displayed, reused or shared through this portfolio.</div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="section-title"><p>Project Overview</p><h2>My Web App Projects</h2></div>
+    <div class="project-overview-grid">
+      <article class="overview-card"><div class="overview-number">01</div><h3>Booking Management System</h3><p>Multi-page booking workflow with customer entry, manager assignment, technician close panel, admin dashboard and customer tracking.</p><div class="tech-row"><span>HTML</span><span>CSS</span><span>JS</span><span>Apps Script</span><span>Sheets</span></div><a href="#booking" class="demo-link">View Project 1 →</a></article>
+      <article class="overview-card"><div class="overview-number">02</div><h3>Solar Site Visit System</h3><p>Solar site visit workflow with customer form, site step process, customer tracker and admin page.</p><div class="tech-row"><span>Apps Script</span><span>Google Sheets</span><span>Forms</span><span>Dashboard</span></div><a href="#sitevisit" class="demo-link">View Project 2 →</a></article>
+      <article class="overview-card"><div class="overview-number">03</div><h3>Proposal Management System</h3><p>Proposal creation and proposal status tracking workflow for business proposal management.</p><div class="tech-row"><span>Apps Script</span><span>Google Sheets</span><span>Proposal</span><span>Status Tracker</span></div><a href="#proposal" class="demo-link">View Project 3 →</a></article>
+      <article class="overview-card coming-card"><div class="overview-number">04</div><h3>Next Project Coming Soon</h3><p>This section is ready for your next project. Send the URLs and demo instructions, and it can be added in the same format.</p><div class="tech-row"><span>Ready</span><span>For Update</span></div></article>
+    </div>
+  </section>
+
+  <section class="section project-detail" id="booking">
+    <div class="section-title"><p>Project 1</p><h2>Booking Management System</h2></div>
+    <p class="about-text">A complete service booking workflow with customer landing page, query/booking flow, manager assignment, technician closing, admin dashboard and customer tracker.</p>
+    <div class="demo-grid">
+      <article class="demo-card"><div class="demo-top"><span class="demo-icon">🏠</span><span class="demo-type">Customer Start</span></div><h3>Home Page</h3><p>Main landing page for booking, estimate and tracking flow.</p><a href="https://ghanshyamjangir.github.io/homepage/" target="_blank" class="demo-link">Open Home Page →</a></article>
+      <article class="demo-card"><div class="demo-top"><span class="demo-icon">👨‍💼</span><span class="demo-type">Manager Panel</span></div><h3>Query Assign Page</h3><p>Panel for assigning customer queries/bookings to technicians.</p><div class="demo-access"><h4>Demo Access Instructions</h4><p>Use any one demo account:</p><div class="credential-box"><strong>User 1</strong><span>Username: Team01</span><span>Password: Team01@123</span></div><div class="credential-box"><strong>User 2</strong><span>Username: Team02</span><span>Password: Team02@123</span></div></div><a href="https://ghanshyamjangir.github.io/QueryAssign/" target="_blank" class="demo-link">Open Query Assign →</a></article>
+      <article class="demo-card"><div class="demo-top"><span class="demo-icon">🛠️</span><span class="demo-type">Technician Panel</span></div><h3>Query Close Page</h3><p>Technician page for closing assigned work and updating service details.</p><div class="demo-access"><h4>Demo Access Instructions</h4><p>Use any one demo account:</p><div class="credential-box"><strong>User 1</strong><span>Mobile: 8000000000</span><span>Password: Deepak@01</span></div><div class="credential-box"><strong>User 2</strong><span>Mobile: 8000000001</span><span>Password: Balram@01</span></div></div><a href="https://ghanshyamjangir.github.io/QueryClose/" target="_blank" class="demo-link">Open Query Close →</a></article>
+      <article class="demo-card"><div class="demo-top"><span class="demo-icon">📊</span><span class="demo-type">Admin Dashboard</span></div><h3>Admin Page</h3><p>Admin dashboard for checking bookings, status, filters and team workflow.</p><div class="demo-access"><h4>Demo Access Instructions</h4><div class="credential-box"><strong>Admin</strong><span>Username: admin</span><span>Password: Admin@123</span></div></div><a href="https://ghanshyamjangir.github.io/Adminpage/" target="_blank" class="demo-link">Open Admin Page →</a></article>
+      <article class="demo-card"><div class="demo-top"><span class="demo-icon">🔎</span><span class="demo-type">Customer Tracking</span></div><h3>Customer Tracker</h3><p>Customer-facing page for checking booking/query status.</p><div class="demo-access"><h4>Demo Access Instructions</h4><div class="credential-box"><strong>Example Search</strong><span>Mobile Number: 8529812503</span></div></div><a href="https://ghanshyamjangir.github.io/customertracker/" target="_blank" class="demo-link">Open Customer Tracker →</a></article>
+    </div>
+  </section>
+
+  <section class="section project-detail" id="sitevisit">
+    <div class="section-title"><p>Project 2</p><h2>Solar Site Visit System</h2></div>
+    <p class="about-text">A solar site visit workflow system created using Google Apps Script based pages. It includes a site visit form, step process page, customer tracker and admin page.</p>
+    <div class="demo-grid">
+      <article class="demo-card highlight-card"><div class="demo-top"><span class="demo-icon">📝</span><span class="demo-type">Customer Form</span></div><h3>Solar Site Visit Form</h3><p>Customer-facing form for submitting solar site visit details.</p><a href="https://script.google.com/macros/s/AKfycbyRu6xvXCXlJkcIiyxmSwJQobkjWW32Y643OPD5bxk17UQCigItwCE9nBjk2iuM3JAm/exec" target="_blank" class="demo-link">Open Site Visit Form →</a></article>
+      <article class="demo-card"><div class="demo-top"><span class="demo-icon">📍</span><span class="demo-type">Process Page</span></div><h3>Site Step Process</h3><p>Admin/process page for managing or checking site visit workflow steps.</p><div class="demo-access"><h4>Demo Access Instructions</h4><p>Use the following demo account:</p><div class="credential-box"><strong>Process Admin</strong><span>Username: admin</span><span>Password: 1234</span></div></div><a href="https://script.google.com/macros/s/AKfycbwBm7XwaF2Q4C66lszQOk_6crJ-qibGNXzWQELyfaimsPB08dDnw3ujQ-64AYWPp0dw/exec" target="_blank" class="demo-link">Open Site Step Process →</a></article>
+      <article class="demo-card"><div class="demo-top"><span class="demo-icon">🔎</span><span class="demo-type">Customer Tracking</span></div><h3>Customer Tracker</h3><p>Customer can track site visit request status using the default demo mobile number.</p><div class="demo-access"><h4>Demo Access Instructions</h4><p>Use the following default demo mobile number:</p><div class="credential-box"><strong>Example Search</strong><span>Mobile Number: 8529812503</span></div></div><a href="https://script.google.com/macros/s/AKfycbxOAtdWhIHYCrYtjL15E2P-JlGOO8ikNVRTRw3TIkL4x2pGD8YWvzV_zYC5Hkx0deyp/exec" target="_blank" class="demo-link">Open Customer Tracker →</a></article>
+      <article class="demo-card"><div class="demo-top"><span class="demo-icon">📊</span><span class="demo-type">Admin Dashboard</span></div><h3>Admin Page</h3><p>Admin page for checking and managing solar site visit data and workflow records.</p><div class="demo-access"><h4>Demo Access Instructions</h4><p>Use the following demo admin account:</p><div class="credential-box"><strong>Admin</strong><span>Username: Admin</span><span>Password: Admin@1234</span></div></div><a href="https://script.google.com/macros/s/AKfycby5D_BAAGWzWvP5AH6X5FoCJe7SJm2TivCXOTrnnxa1lrF41eDzlf8LKxUJaY3bzVDvgg/exec" target="_blank" class="demo-link">Open Admin Page →</a></article>
+    </div>
+  </section>
+
+  <section class="section project-detail" id="proposal">
+    <div class="section-title"><p>Project 3</p><h2>Proposal Management System</h2></div>
+    <p class="about-text">A proposal workflow system for creating business proposals and checking proposal status. This project is useful for businesses that need proposal submission and customer-facing proposal status tracking.</p>
+    <div class="demo-grid">
+      <article class="demo-card highlight-card"><div class="demo-top"><span class="demo-icon">📄</span><span class="demo-type">Proposal Form</span></div><h3>Proposal Page</h3><p>Page for creating or submitting proposal details through a Google Apps Script based web app.</p><a href="https://script.google.com/macros/s/AKfycbwwPoQ3jGwmeBUHC6XMqlQMcLzp_yYnsn9yeKCIyIR-yhk9Hehe61PXMtSU0baglX9G/exec" target="_blank" class="demo-link">Open Proposal Page →</a></article>
+      <article class="demo-card"><div class="demo-top"><span class="demo-icon">🔎</span><span class="demo-type">Proposal Tracking</span></div><h3>Proposal Status</h3><p>Customer-facing page for checking proposal status using a sample mobile number.</p><div class="demo-access"><h4>Demo Access Instructions</h4><p>Use the following mobile number as an example:</p><div class="credential-box"><strong>Example Search</strong><span>Mobile Number: 8529812503</span></div></div><a href="https://script.google.com/macros/s/AKfycbyvIswie-AQOxPCb-OPkms7-wlLs91zbgyVoSI-y26H5iju1-kNbbQNvIH5y8kDswem/exec" target="_blank" class="demo-link">Open Proposal Status →</a></article>
+      <article class="demo-card portfolio-note-card"><div class="demo-top"><span class="demo-icon">🔐</span><span class="demo-type">Demo Policy</span></div><h3>Proposal Demo Note</h3><p>This project should be reviewed as a demo system. Proposal records, customer details, pricing and business information should be sample/demo data only.</p><a href="#privacy" class="demo-link">Read Privacy Rules →</a></article>
+    </div>
+  </section>
+
+  <section class="section privacy" id="privacy">
+    <div class="section-title"><p>Privacy & Safety</p><h2>Public Demo Rules</h2></div>
+    <div class="privacy-grid">
+      <div class="privacy-card"><h3>Use Demo Data Only</h3><p>Use sample names, sample phone numbers, sample emails, sample addresses and sample records.</p></div>
+      <div class="privacy-card"><h3>No Real Sheet Data</h3><p>Do not expose original Google Sheet links, private data, Apps Script backend logic or real database records.</p></div>
+      <div class="privacy-card"><h3>Demo Access Only</h3><p>Credentials and mobile numbers shown on this page are for demo review only.</p></div>
+      <div class="privacy-card"><h3>Protect Customers</h3><p>Do not show real customer mobile numbers, emails, addresses, payment screenshots, map links or private notes.</p></div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="contact-box"><p class="tagline">Available for Freelance Work</p><h2>Need a Custom Business Web App?</h2><p>I can build booking systems, proposal systems, site visit forms, admin dashboards, customer trackers and Google Sheet automation tools.</p><div class="contact-buttons"><a href="mailto:Ghanshyamjangir334@gmail.com" class="btn primary-btn">Email Me</a><a href="https://linkedin.com/in/ghanshyam-jangir-753695177" target="_blank" class="btn secondary-btn">LinkedIn Profile</a></div></div>
+  </section>
+</main>
+<footer class="footer"><p>© 2026 Ghanshyam Jangir. Freelance web app portfolio demo.</p></footer>
+<button class="top-btn" id="topBtn">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
